@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Rubik';
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 12px;
+}
+
+.navtwo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+}
+.navtwo > ul > li > a {
+    text-decoration: none;
+    color: hsl(229, 31%, 21%);
+}
+
+.navtwo > ul {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+}
+
+.loginbtn {
+    border: none;
+    border-radius: 8px;
+    padding: 6px 30px;
+    background-color: hsl(0, 94%, 66%);
+    color: hsl(0, 0%, 97%);
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    width: 40%;
+    color: hsl(229, 31%, 21%);
+}
+
+.heroleft > p {
+    color: hsl(0, 0%, 97%);
+}
+.heroleft > .leftbtns {
+    display: flex;
+    gap: 20px;
+}
+.heroright {
+    width: 40%;
+}
